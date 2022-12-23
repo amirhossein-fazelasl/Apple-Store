@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(250, 189, 114);
+    font-family: Tahoma;
+    font-size: 13px;
+    direction: rtl;
+    box-sizing: border-box;
+}
+body a {
+    color: white;
+    text-decoration: none;
+}
+
+#h-img{
+    width: 1200px;
+    height: 160px;
+    border: solid dimgray 1px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+#wrapper{
+    width: 1200px;    
+    margin: 2px auto;
+    padding: 5px;
+    border: 1px white;
+    border-radius: 7px;
+    background: linear-gradient(rgb(125,145,155) 500px, rgb(120,140,150)100%);
+}
+
+#header{
+    width: 1200px;
+    height: 110px;
+    font-size: 90px;
+    color: dimgray;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 5px;
+    background: radial-gradient(circle,burlywood 0%,white 40%,burlywood 85%,white 100%);
+    border-radius: 6px;
+}
+
+#nav{
+    width: 1195px;
+    margin: 3px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: dimgray;
+    border-radius: 8px;
+}
+#menu{
+    font-size: 16px;
+    list-style-type: none;
+}
+#menu li{
+    float: right;
+    border: solid 1px gray;
+    border-radius: 10px;
+}
+#menu a{
+    display: block;
+    border-radius: 8px;
+    width: 260px;
+    height: 20px; 
+    text-align: center;
+    padding: 10px;
+    padding-left: 6px;
+}
+
+#news{
+    width: 1000px;
+    height: 520px;
+    margin-bottom: 10px;
+    float: right;
+    background-color: silver;
+    border: 1px solid dimgray;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: maroon;
+}
+
+#apple-store{
+    width: 950px;
+    height: 320px;
+    border: 2px solid dimgray;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.side-links a{
+    color: black;
+}
+
+.side-links{
+    width: 160px;
+    height: 520px;
+    margin-bottom: 10px;
+    float: right;
+    margin-right: 20px;
+    background-color: silver;
+    border: solid dimgray 1px;
+    border-radius: 10px;
+}
+
+.side-links ul{
+    padding-right: 15px;
+}
+
+.side-links li{
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#footer{
+    clear: both;
+    height: 70px;
+    width: 1200px;
+    text-align: center;
+    padding-top: 10px;
+    background: radial-gradient(circle,burlywood 0%,white 40%,burlywood 85%,white 100%);
+    border-radius: 6px;
+}
+
